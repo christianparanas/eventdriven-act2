@@ -16,7 +16,7 @@ export class NavComponent implements OnInit {
   }
 
   openCloseNavOverlay(): void {
-    this.isOpenNavOverlay != this.isOpenNavOverlay
+    this.isOpenNavOverlay =! this.isOpenNavOverlay
   }
 
   listenScrollEvent = () => {
