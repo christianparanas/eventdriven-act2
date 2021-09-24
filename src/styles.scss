@@ -1,6 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto Mono', monospace;
+
+// 101426 lg
+// #151a30 mid
+// 191E39 sm
 
 * {
    margin: 0;
    box-sizing: border-box;
+}
+
+body {
+   background: #151a30;
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
 }
