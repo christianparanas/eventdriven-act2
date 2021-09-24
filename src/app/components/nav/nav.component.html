@@ -3,7 +3,7 @@
   <div class="nav_header__container" [ngClass]="{ nav_header__scroll: onScroll }">
     <div class="name">Christian</div>
     <div class="ham_icon">
-      <i *ngIf="!isOpenNavOverlay" (click)="openCloseNavOverlay() class="fal fa-bars"></i>
+      <i *ngIf="!isOpenNavOverlay" (click)="openCloseNavOverlay()" class="fal fa-bars"></i>
       <i *ngIf="isOpenNavOverlay" (click)="openCloseNavOverlay()" class="fal fa-times"></i>
     </div>
   </div>
