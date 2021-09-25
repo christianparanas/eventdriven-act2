@@ -17,4 +17,18 @@
       ></i>
     </div>
   </div>
+
+  <div class="nav_overlay_container" *ngIf="isOpenNavOverlay" [@inOutAnimation]>
+    <div class="nav_overlay_wrapper">
+      <a href="">
+        Me
+      </a>
+      <a href="">
+        Projects
+      </a>
+      <a href="">
+        Contact Me
+      </a>
+    </div>
+  </div>
 </div>
