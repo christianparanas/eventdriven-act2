@@ -1,4 +1,6 @@
-<div class="app_container">
+<div class="info" *ngIf="innerWidth > 450">This website is currently only available on mobiles phones, thanks.</div>
+
+<div class="app_container" *ngIf="innerWidth < 450">
   <app-nav></app-nav>
 
   <div class="app__main_container">
