@@ -11,6 +11,15 @@
     align-items: center;
     transition: all 0.3s ease;
     z-index: 100;
+
+    .name {
+      height: 100%;
+
+      img {
+        height: 100%;
+
+      }
+    }
   }
 
   .nav_header__scroll {
