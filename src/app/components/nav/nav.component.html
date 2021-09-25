@@ -1,7 +1,7 @@
 <div class="nav_container">
   <div
     class="nav_header__container"
-    [ngClass]="{ nav_header__scroll: onScroll }"
+    [ngClass]="[ onScroll ? 'nav_header__scroll': '', isOpenNavOverlay ? 'nav_header__scroll': '' ]"
   >
     <div class="name">Christian</div>
     <div class="ham_icon">
@@ -20,15 +20,9 @@
 
   <div class="nav_overlay_container" *ngIf="isOpenNavOverlay" [@inOutAnimation]>
     <div class="nav_overlay_wrapper">
-      <a href="">
-        Me
-      </a>
-      <a href="">
-        Projects
-      </a>
-      <a href="">
-        Contact Me
-      </a>
+      <a href="">Me</a>
+      <a href="">Projects</a>
+      <a href="">Contact Me</a>
     </div>
   </div>
 </div>
