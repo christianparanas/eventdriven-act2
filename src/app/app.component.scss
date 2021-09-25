@@ -1,1 +1,26 @@
+.app_container {
+  height: 1000px;
 
+  .app__main_container {
+    padding: 73px 20px 20px;
+
+    .hero_container {
+      margin: 32px 0 0;
+
+      h1 {
+        margin: 16px 0 24px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+      }
+
+      p {
+        color: #8f9bb3;
+        line-height: 1.6;
+      }
+
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
