@@ -3,7 +3,9 @@
     class="nav_header__container"
     [ngClass]="[ onScroll ? 'nav_header__scroll': '', isOpenNavOverlay ? 'nav_header__scroll': '' ]"
   >
-    <div class="name">Christian</div>
+    <div class="name">
+      <img src="../../../assets/imgs/ch.png" alt="">
+    </div>
     <div class="ham_icon">
       <i
         *ngIf="!isOpenNavOverlay"
