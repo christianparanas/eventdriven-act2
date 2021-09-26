@@ -2,7 +2,7 @@
   This website is currently only available on mobile phones, thanks.
 </div>
 
-<app-loader *ngIf="isLoading" [@inOutAnimation]></app-loader>
+<app-loader *ngIf="isLoading" *ngIf="innerWidth < 450" [@inOutAnimation]></app-loader>
 
 <div class="app_container" *ngIf="innerWidth < 450">
   <app-nav></app-nav>
