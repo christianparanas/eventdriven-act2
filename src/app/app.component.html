@@ -1,10 +1,10 @@
-<div class="info" *ngIf="innerWidth > 450">
+<div class="info" *ngIf="false">
   This website is currently only available on mobile phones, thanks.
 </div>
 
-<app-loader *ngIf="isLoading && innerWidth < 450" [@inOutAnimation]></app-loader>
+<app-loader *ngIf="isLoading" [@inOutAnimation]></app-loader>
 
-<div class="app_container" *ngIf="innerWidth < 450">
+<div class="app_container" *ngIf="true">
   <app-nav></app-nav>
 
   <div class="app__main_container">
@@ -21,7 +21,7 @@
       </div>
       <div class="img_container">
         <div class="img_wrapper">
-          <img src="../../../assets/imgs/me.jpg" alt="" />
+          <img src="../../../assets/imgs/Lorem.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -29,5 +29,3 @@
 </div>
 
 <router-outlet></router-outlet>
-
-
