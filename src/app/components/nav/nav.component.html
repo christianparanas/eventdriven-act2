@@ -3,20 +3,22 @@
     class="nav_header__container"
     [ngClass]="[ onScroll ? 'nav_header__scroll': '', isOpenNavOverlay ? 'nav_header__scroll': '' ]"
   >
-    <div class="name">
-      <img src="../../../assets/imgs/ch.png" alt="">
-    </div>
-    <div class="ham_icon">
-      <i
-        *ngIf="!isOpenNavOverlay"
-        (click)="openCloseNavOverlay()"
-        class="fal fa-bars"
-      ></i>
-      <i
-        *ngIf="isOpenNavOverlay"
-        (click)="openCloseNavOverlay()"
-        class="fal fa-times"
-      ></i>
+    <div class="header_wrapper">
+      <div class="name">
+        <img src="../../../assets/imgs/ch.png" alt="">
+      </div>
+      <div class="ham_icon">
+        <i
+          *ngIf="!isOpenNavOverlay"
+          (click)="openCloseNavOverlay()"
+          class="fal fa-bars"
+        ></i>
+        <i
+          *ngIf="isOpenNavOverlay"
+          (click)="openCloseNavOverlay()"
+          class="fal fa-times"
+        ></i>
+      </div>
     </div>
   </div>
 
